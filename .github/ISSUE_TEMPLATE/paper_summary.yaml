@@ -1,0 +1,22 @@
+name: Paper Summary
+description: "Add a paper to the reading list."
+body:
+  - type: input
+    attributes:
+      label: Published in
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: URI
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Supplementary materials
+  - type: textarea
+    attributes:
+      label: Summary
+  - type: textarea
+    attributes:
+      label: Memo
